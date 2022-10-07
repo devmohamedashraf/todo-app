@@ -1,0 +1,41 @@
+body{
+    background: #eee !important;
+}
+
+.dark body {
+    background: #2A2B2F !important;
+}
+
+.dark div[data-rbd-placeholder-context-id~="0"] {
+    border-radius: 12px;
+    opacity: .1;
+}
+div[data-rbd-placeholder-context-id~="0"] {
+    border-radius: 12px;
+    opacity: .08;
+}
+
+.draggable-placeholder{
+    border: 2px dashed #1C1D22;
+    opacity: .1;
+}
+
+.dark .draggable-placeholder{
+    border: 2px dashed #fff;
+}
+
+
+.dark .ant-picker-input > input {
+    color: #fff;
+}
+
+.dark .anticon svg {
+    fill: #fff !important;
+}
+
+.dark .ant-picker-clear {
+    background: #24262C;
+}
+.dark .ant-picker-clear .anticon svg {
+    fill: #fff !important;
+}
